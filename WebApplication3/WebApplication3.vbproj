@@ -223,6 +223,7 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="Account\Websillo.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -387,6 +388,13 @@
     <Compile Include="Account\VerifyPhoneNumber.aspx.vb">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Websillo.aspx.designer.vb">
+      <DependentUpon>Websillo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Websillo.aspx.vb">
+      <DependentUpon>Websillo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\IdentityConfig.vb" />
